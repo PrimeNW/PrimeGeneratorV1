@@ -1,0 +1,41 @@
+# ItemGenerator - Config
+# Her seviye icin: uretim araligi (saniye), max depo, uretim miktari
+
+levels:
+  1:
+    interval-seconds: 5
+    max-storage: 128
+    produce-amount: 1
+  2:
+    interval-seconds: 5
+    max-storage: 256
+    produce-amount: 1
+  3:
+    interval-seconds: 4
+    max-storage: 384
+    produce-amount: 1
+  4:
+    interval-seconds: 4
+    max-storage: 512
+    produce-amount: 2
+  5:
+    interval-seconds: 3
+    max-storage: 626
+    produce-amount: 2
+
+# Generator olusturuldugunda insa edilecek schematic'in adi (schematics/<isim>.yml).
+# Once oyun icinde /itemgen wand -> pos1/pos2 -> /itemgen setorigin -> /itemgen savestructure <isim>
+# ile bu dosyayi olusturmalisin. "none" yazarsan hic yapi insa edilmez.
+structure: default
+
+# Varsayilan uretilecek item (generator olusturulurken elde tutulan item baz alinabilir)
+default-material: DIAMOND
+
+# Hologram guncelleme araligi (tick) - 20 tick = 1 saniye
+hologram-update-interval: 20
+
+# Impulso (boost) carpani - uretim hizini X kat artirir
+boost-multiplier: 2.0
+
+# Dil secimi: en, tr, br (Brezilya Portekizcesi)
+language: tr

@@ -1,0 +1,21 @@
+name: ItemGenerator
+main: com.weark.itemgenerator.ItemGeneratorPlugin
+version: 1.0.0
+api-version: 1.13
+author: Weark
+description: Item Farm / Generator sistemi - itemleri kendi icinde depolayarak uretir.
+
+commands:
+  itemgen:
+    description: ItemGenerator ana komutu
+    usage: /itemgen <create|remove|reload>
+    permission: itemgenerator.admin
+    aliases: [ig, igen]
+
+permissions:
+  itemgenerator.admin:
+    description: Generator olusturma/silme yetkisi
+    default: op
+  itemgenerator.use:
+    description: Generator kullanma yetkisi
+    default: true

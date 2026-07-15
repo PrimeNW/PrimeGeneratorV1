@@ -1,0 +1,56 @@
+prefix: "&8[&6ItemGenerator&8] &r"
+
+console-only: "&cBu komut sadece oyuncular tarafindan kullanilabilir."
+no-permission: "&cBu islemi yapmaya yetkin yok."
+no-target-block: "&cBaktigin yerde gecerli bir blok yok."
+no-item-in-hand: "&cElinde bir item tutmalisin."
+invalid-level: "&cGecersiz seviye."
+level-not-defined: "&cBu seviye config.yml icinde tanimli degil."
+already-generator: "&cBu blokta zaten bir generator var."
+no-generator-here: "&cBu blokta generator yok."
+usage-main: "&eKullanim: /itemgen <create|give|setitem|remove|reload|wand|setorigin|savestructure> [seviye]"
+
+generator-created: "&aGenerator olusturuldu! Seviye: {level} | Item: {item}"
+generator-placed: "&aGenerator yerlestirildi! Seviye: {level}"
+generator-removed: "&aGenerator kaldirildi."
+generator-picked-up: "&eGenerator sokuldu ve envanterine eklendi."
+generator-not-yours: "&cBu generator sana ait degil."
+already-placed-here: "&cBuraya zaten bir generator yerlesmis."
+
+item-updated: "&aGenerator itemi guncellendi: {item}"
+
+chest-empty: "&7Cofre su an bos."
+chest-updated: "&6Cofre guncellendi. &fKalan depo: {storage}/{max}"
+
+give-usage: "&eKullanim: /itemgen give <oyuncu> <seviye>"
+give-player-not-found: "&cOyuncu bulunamadi (cevrimdisi olabilir)."
+give-invalid-level: "&cGecersiz seviye."
+give-level-not-defined: "&cBu seviye config.yml icinde tanimli degil."
+give-need-held-item: "&cUretilecek itemi elinde tutmalisin."
+give-success-sender: "&a{player} oyuncusuna Seviye {level} Generator Item verildi."
+give-success-target: "&6Sana bir Item Generator verildi! Bir bloga tiklayarak yerlestirebilirsin."
+
+wand-given: "&aGenerator Wand verildi. Sol/sag tikla iki kose sec."
+wand-pos1: "&aPos1 ayarlandi: {loc}"
+wand-pos2: "&aPos2 ayarlandi: {loc}"
+wand-lore-1: "&7Sol tik: Pos1"
+wand-lore-2: "&7Sag tik: Pos2"
+
+origin-set: "&aMerkez nokta ayarlandi (generator'un oturacagi blok budur)."
+
+selection-status: "&ePos1: {pos1} | Pos2: {pos2} | Merkez: {origin}"
+
+savestructure-usage: "&eKullanim: /itemgen savestructure <isim>"
+savestructure-success: "&aSchematic kaydedildi: {name}.yml (config.yml -> structure: {name} yaparak kullanabilirsin)"
+savestructure-missing: "&cOnce Pos1, Pos2 ve Merkez nokta (setorigin) belirlemelisin."
+savestructure-error: "&cKaydetme hatasi: {error}"
+structure-missing-warning: "'{name}' adinda kayitli bir schematic bulunamadi. /itemgen wand ve /itemgen savestructure ile bir tane olusturabilirsin."
+
+config-reloaded: "&aConfig yeniden yuklendi."
+
+hologram-farm-title: "&6Esya Ciftligi Sv.{level}"
+hologram-boost-label: "&dGuclendirme: &f{value}"
+hologram-boost-none: "Yok"
+hologram-fuel-label: "&7Yakit: &f{value}"
+hologram-chest-label: "&6Sandik: &f{storage}/{max}"
+hologram-click-to-open: "&e&lACMAK ICIN TIKLA"

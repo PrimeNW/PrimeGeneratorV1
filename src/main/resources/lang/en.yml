@@ -1,0 +1,56 @@
+prefix: "&8[&6ItemGenerator&8] &r"
+
+console-only: "&cThis command can only be used by players."
+no-permission: "&cYou don't have permission to do this."
+no-target-block: "&cThere's no valid block where you're looking."
+no-item-in-hand: "&cYou must be holding an item."
+invalid-level: "&cInvalid level."
+level-not-defined: "&cThis level is not defined in config.yml."
+already-generator: "&cThere's already a generator on this block."
+no-generator-here: "&cThere's no generator on this block."
+usage-main: "&eUsage: /itemgen <create|give|setitem|remove|reload|wand|setorigin|savestructure> [level]"
+
+generator-created: "&aGenerator created! Level: {level} | Item: {item}"
+generator-placed: "&aGenerator placed! Level: {level}"
+generator-removed: "&aGenerator removed."
+generator-picked-up: "&eGenerator picked up and added to your inventory."
+generator-not-yours: "&cThis generator doesn't belong to you."
+already-placed-here: "&cA generator is already placed here."
+
+item-updated: "&aGenerator item updated: {item}"
+
+chest-empty: "&7The chest is currently empty."
+chest-updated: "&6Chest updated. &fRemaining storage: {storage}/{max}"
+
+give-usage: "&eUsage: /itemgen give <player> <level>"
+give-player-not-found: "&cPlayer not found (may be offline)."
+give-invalid-level: "&cInvalid level."
+give-level-not-defined: "&cThis level is not defined in config.yml."
+give-need-held-item: "&cYou must hold the item to produce."
+give-success-sender: "&aGave a Level {level} Generator Item to {player}."
+give-success-target: "&6You received an Item Generator! Right-click a block to place it."
+
+wand-given: "&aGenerator Wand given. Left/right-click to select two corners."
+wand-pos1: "&aPos1 set: {loc}"
+wand-pos2: "&aPos2 set: {loc}"
+wand-lore-1: "&7Left-click: Pos1"
+wand-lore-2: "&7Right-click: Pos2"
+
+origin-set: "&aOrigin point set (this is the block the generator will sit on)."
+
+selection-status: "&ePos1: {pos1} | Pos2: {pos2} | Origin: {origin}"
+
+savestructure-usage: "&eUsage: /itemgen savestructure <name>"
+savestructure-success: "&aStructure saved: {name}.yml (use structure: {name} in config.yml)"
+savestructure-missing: "&cYou must set Pos1, Pos2 and Origin (setorigin) first."
+savestructure-error: "&cSave error: {error}"
+structure-missing-warning: "No schematic named '{name}' found. Use /itemgen wand and /itemgen savestructure to create one."
+
+config-reloaded: "&aConfig reloaded."
+
+hologram-farm-title: "&6Item Farm Lv.{level}"
+hologram-boost-label: "&dBoost: &f{value}"
+hologram-boost-none: "None"
+hologram-fuel-label: "&7Fuel: &f{value}"
+hologram-chest-label: "&6Chest: &f{storage}/{max}"
+hologram-click-to-open: "&e&lCLICK TO OPEN"

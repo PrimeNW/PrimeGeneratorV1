@@ -1,0 +1,56 @@
+prefix: "&8[&6ItemGenerator&8] &r"
+
+console-only: "&cEste comando so pode ser usado por jogadores."
+no-permission: "&cVoce nao tem permissao para fazer isso."
+no-target-block: "&cNao ha um bloco valido para onde voce esta olhando."
+no-item-in-hand: "&cVoce precisa estar segurando um item."
+invalid-level: "&cNivel invalido."
+level-not-defined: "&cEsse nivel nao esta definido no config.yml."
+already-generator: "&cJa existe um gerador neste bloco."
+no-generator-here: "&cNao ha nenhum gerador neste bloco."
+usage-main: "&eUso: /itemgen <create|give|setitem|remove|reload|wand|setorigin|savestructure> [nivel]"
+
+generator-created: "&aGerador criado! Nivel: {level} | Item: {item}"
+generator-placed: "&aGerador colocado! Nivel: {level}"
+generator-removed: "&aGerador removido."
+generator-picked-up: "&eGerador coletado e adicionado ao seu inventario."
+generator-not-yours: "&cEste gerador nao pertence a voce."
+already-placed-here: "&cJa existe um gerador colocado aqui."
+
+item-updated: "&aItem do gerador atualizado: {item}"
+
+chest-empty: "&7O cofre esta vazio no momento."
+chest-updated: "&6Cofre atualizado. &fArmazenamento restante: {storage}/{max}"
+
+give-usage: "&eUso: /itemgen give <jogador> <nivel>"
+give-player-not-found: "&cJogador nao encontrado (pode estar offline)."
+give-invalid-level: "&cNivel invalido."
+give-level-not-defined: "&cEsse nivel nao esta definido no config.yml."
+give-need-held-item: "&cVoce precisa segurar o item a ser produzido."
+give-success-sender: "&aItem Gerador de Nivel {level} entregue a {player}."
+give-success-target: "&6Voce recebeu um Item Gerador! Clique com o botao direito em um bloco para coloca-lo."
+
+wand-given: "&aVarinha do Gerador entregue. Clique esquerdo/direito para selecionar dois cantos."
+wand-pos1: "&aPos1 definida: {loc}"
+wand-pos2: "&aPos2 definida: {loc}"
+wand-lore-1: "&7Clique esquerdo: Pos1"
+wand-lore-2: "&7Clique direito: Pos2"
+
+origin-set: "&aPonto de origem definido (este e o bloco onde o gerador ficara)."
+
+selection-status: "&ePos1: {pos1} | Pos2: {pos2} | Origem: {origin}"
+
+savestructure-usage: "&eUso: /itemgen savestructure <nome>"
+savestructure-success: "&aEstrutura salva: {name}.yml (use structure: {name} no config.yml)"
+savestructure-missing: "&cVoce precisa definir Pos1, Pos2 e a Origem (setorigin) primeiro."
+savestructure-error: "&cErro ao salvar: {error}"
+structure-missing-warning: "Nenhum schematic chamado '{name}' foi encontrado. Use /itemgen wand e /itemgen savestructure para criar um."
+
+config-reloaded: "&aConfiguracao recarregada."
+
+hologram-farm-title: "&6Farm de Itens NV.{level}"
+hologram-boost-label: "&dImpulso: &f{value}"
+hologram-boost-none: "Nenhum"
+hologram-fuel-label: "&7Combustivel: &f{value}"
+hologram-chest-label: "&6Cofre: &f{storage}/{max}"
+hologram-click-to-open: "&e&lCLIQUE PARA ABRIR"
